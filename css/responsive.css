@@ -1,0 +1,256 @@
+@media (min-width:767px){
+	#appon_nav ul li:hover .dropdown-menu{
+		margin-top: 0;
+		opacity: 1;
+		visibility: visible;
+	}
+}
+@media (min-width:992px) and (max-width:1199px){
+	.skdslider ul.slide-navs {
+	  right: 10px;
+	}
+	
+	#appon_nav > ul > li a{
+		padding: 0 12px;
+	}
+	.right_home_btn i {
+	  right: 10px;
+	}
+	.feature_left .media {
+	  margin: 0 30px 0 0;
+	}
+	
+}
+@media (min-width:768px) and (max-width:991px){
+	#about_part, #get_touch, #feedback, #pricing, #video, #screenshots, #awesome {
+	  padding-top: 50px;
+	}
+/* nav and banner slider part css	*/
+	.logo img{
+		width: 150px;
+	}
+	#appon_nav > ul {
+	  margin-top: 10px;
+	}
+	#appon_nav > ul > li a {
+	  padding: 0 14px;
+	}
+	
+	.navbar-fixed-top #appon_nav > ul li a{
+		padding: 0 15px;
+	}
+	.skdslider{
+		height: 600px;
+	}
+	.skdslider ul.slide-navs {
+	  right: 5px;
+	}
+	.right_home_btn i {
+	  right: 5px;
+	}
+/* about part css */
+	.about_left h2 {
+	  padding-top: 20px;
+	}
+	.about_left p {
+	  padding: 0 30px 20px;
+	}
+	#about_part {
+	  padding-bottom: 30px;
+	}
+/* Ftatures part css  */
+	.feature_right{
+		padding-top: 55px;
+	}
+	.feature_right h3, .feature_left .media-heading {
+	  font-size: 16px;
+	}
+	.feature_left .nav-tabs > li{
+	  margin-right: 0px;
+	}
+	.media-left i {
+	  font-size: 35px;
+	}
+	.feature_left .media {
+	  padding: 15px 0;
+	}
+/* video part */
+	.video_icon {
+	  padding: 100px;
+	}
+/* pricing table */
+	.pricing_table {
+	  margin-bottom: 45px;
+	}
+	.price_btn {
+	  bottom: 26px;
+	}
+/* Team part css */
+	.caption{
+		padding:20px 0; 
+	}
+	.caption p {
+	  padding: 0 8px;
+	}
+	
+}
+
+@media (max-width:767px){
+/*	#awesome .container,*/
+	#pricing .container{
+		width: 480px;
+	}
+	.slicknav_menu{
+		display: block;
+	}
+	.logo{
+		padding-left:15px; 
+	}
+	.logo img{
+		width: 180px;
+	}
+	.navbar-fixed-top .logo img {
+	  padding-top: 5px;
+	  padding-bottom: 10px;
+	}
+	.navbar-fixed-top #appon_nav > ul > li {
+	  padding: 8px 0;
+	}
+	.frer_trial {
+	  margin-left: 15px;
+	  width: 110px;
+	}
+	#appon_nav ul li .dropdown-menu {
+	  opacity: 1;
+		visibility:visible;
+		display: none;
+	}
+	#appon_nav ul li.open .dropdown-menu {
+		display: block;
+	}
+	.skdslider ul.slide-navs {
+	  bottom: 0;
+	  right: 50%;
+		top:auto;
+	  transform: translateX(50%);
+	}
+	.skdslider ul.slide-navs li {
+	  float: left;
+	  margin: 0  10px 20px 10px;
+	}
+	.about_left p {
+	  padding: 0 15px 20px;
+	}
+	.about_right{
+		text-align: center;
+	}
+	.about_left h2 {
+	  padding-top: 0px;
+	}
+	.skdslider {
+	  height: 600px;
+	}
+	.feature_left {
+	  padding-top: 20px;
+		text-align: center;
+	}
+	.feature_left .media {
+	  border-bottom: 1px solid #353535;
+	  margin: 0;
+	  padding: 15px 10px;
+		
+	}
+	.feature_left .nav-tabs > li{
+		border:none;
+		float: none;
+		display: inline-block;
+	}
+	
+	.feature_right {
+	  padding-top: 50px;
+	  text-align: center;
+	}
+	.feature_img img{
+		max-height: 350px;
+	}
+	.video_icon{
+		padding: 80px 0;
+	}
+	.pricing_table {
+	  margin-bottom: 50px;
+	}
+	.price_btn {
+	  bottom: -17px;
+	}
+	#pricing{
+		margin-bottom: -33px;
+	}
+	.caption p {
+	  padding: 0 40px;
+	}
+	.user_feedback_text{
+		margin: 0 15px;
+	}
+	.user_feedback_text p{
+		padding: 0;
+	}
+	
+	#slid_item .slide-desc h2{
+		font-size: 40px;
+	}
+	#slid_item .slide-desc h3{
+		font-size: 28px;
+	}
+	#slid_item .slide-desc > p{
+		line-height: 20px;
+	}
+}
+@media (min-width:320px) and (max-width:480px){
+	#awesome .container,
+	#pricing .container{
+		width:320px;
+	}
+	.caption p {
+	  padding: 0 20px;
+	}
+	.feature_left .media {
+	  padding: 15px 2px;
+	}
+	
+}
+
+@media (max-width:320px){
+	#slid_item .slide-desc h2 {
+	  font-size: 36px;
+	}
+	#slid_item .slide-desc h3 {
+	  font-size: 17px;
+	  padding: 10px 0 20px;
+	}
+	#slid_item .slide-desc > p {
+	  font-size: 14px;
+	  line-height: 18px;
+	  margin-top: 0px;
+		padding-bottom: 30px;
+	}
+	.slider_btn {
+	  margin-bottom: 10px;
+	}
+	#awesome .container,
+	#pricing .container{
+		width: 320px;
+	}
+	.caption p {
+	  padding: 0 20px;
+	}
+	.about_left p {
+	  padding:15px 0;
+	}
+	.feature_left .media {
+	  padding: 15px 0px;
+	}
+	#about_part, #get_touch, #feedback, #pricing, #video, #screenshots, #awesome {
+	  padding-top: 60px;
+	}
+	
+}
